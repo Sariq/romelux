@@ -1,0 +1,20 @@
+@import "../../variables";
+@import "../tabs-pages.scss";
+
+#about-us-container {
+  .about-us-container {
+    height: auto;
+    background-image: none;
+    .text-container {
+      position: relative;
+      width: unset;
+      font-size: 20px;
+    }
+    .body {
+      font-size: 15px;
+      div {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

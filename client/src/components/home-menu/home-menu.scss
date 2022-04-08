@@ -1,0 +1,80 @@
+@import "../../variables";
+.home-menu-grid{
+  margin: 5px 15%;
+}
+.home-menu-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   // margin: 0px 10% 0 10%;
+   .menu-list{
+     display: flex;
+     direction: rtl;
+    //  width: 45%;
+   }
+  button {
+    background-color: $white;
+    color: $dark-gray;
+    background-color: initial;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+  }
+  display: inline-flex;
+  div {
+    margin: 5px 10px;
+  }
+  .logo-container{
+    align-self: center;
+   
+    img{
+      width: 170px;
+      height: 50px;
+    }
+  }
+  .link-item {
+    text-decoration: none !important;
+    color: white !important;
+    button{
+      font-family: 'Rubik', sans-serif;
+      font-weight: 500;
+    }
+    &.home-link{
+      button{
+        color: $bordo!important;
+      
+      }
+    }
+  }
+  .link-item:hover {
+    text-decoration: none;
+    color: $bordo !important;
+  }
+  button {
+    min-width: 150px;
+  }
+
+    .menu-item {
+      .link-item {
+        text-decoration: none;
+        color: white !important;
+      }
+   
+  }
+  .apply-now-btn{
+    button{
+        background-color: #6cbf20;
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .menu-btn-logo-container{
+    img{
+      width : 80%
+    }
+  }
+  // .home-menu-container {
+  //   // .logo-container{
+  
+  //   // }
+  // }
+}

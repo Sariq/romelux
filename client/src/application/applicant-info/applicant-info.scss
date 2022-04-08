@@ -1,0 +1,8 @@
+.applicant-info-container{
+    .select-input{
+        width: 100%;
+    }
+    &.application-completed{
+        pointer-events: none;
+    }
+}

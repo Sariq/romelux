@@ -1,0 +1,40 @@
+@import "../../../variables";
+@import "../../tabs-pages.scss";
+.about-green-card {
+  .about-us-container {
+    height: auto;
+    background-image: unset;
+    .text-container {
+      position: relative;
+      width: unset;
+    }
+    .body {
+      font-size: 15px !important;
+      p{
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+      }
+     
+      div {
+        margin-bottom: 10px;
+      }
+      .title{
+        font-size: 48px;
+        width: 100%;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+      }
+      .sub-title{
+        font-size: 24px;
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+      }
+    }
+    
+  }
+  .glass-passport-image{
+    height: 200px;
+  }
+}
